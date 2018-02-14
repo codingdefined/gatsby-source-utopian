@@ -1,0 +1,14 @@
+{
+  "name": "gatsby-source-utopian",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "utopian-api": "^0.4.1"
+  }
+}
