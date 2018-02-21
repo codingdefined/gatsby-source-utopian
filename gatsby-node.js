@@ -3,7 +3,7 @@ const utopian = require('utopian-api');
 
 exports.sourceNodes = async ({ boundActionCreators }, { user }) => {
   const { createNode } = boundActionCreators;
-  utopian.getPostByAuthor('codingdefined').then((data) => {
+  return utopian.getPostByAuthor('codingdefined').then((data) => {
     data.results.forEach(post => {
       const nodeStr = JSON.stringify(post);
       const nodeHash = crypto
@@ -24,5 +24,4 @@ exports.sourceNodes = async ({ boundActionCreators }, { user }) => {
       });
     });
   });
-  return;
 };
