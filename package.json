@@ -1,14 +1,18 @@
 {
   "name": "gatsby-source-utopian",
   "version": "0.0.5",
-  "description": "",
+  "description": "It is a source plugin of pulling your posts from Utopian.io to Gatsby. You need to provide your utopian name and it will get all the posts whether approved or rejected.",
   "main": "gatsby-node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Coding Defined <codingdefined@gmail.com> (http://www.codingdefined.com)",
   "license": "MIT",
   "dependencies": {
     "utopian-api": "^0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codingdefined/gatsby-source-utopian.git"
   }
 }
